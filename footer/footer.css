@@ -1,0 +1,85 @@
+/* Footer Section */
+
+#newsletter-container {
+    position: relative;
+    left: 200px;
+    border: 1px #DCCA87 solid;
+    width: 800px;
+    padding: 20px;
+}
+
+#newsletter-container h1 {
+    text-align: center;
+    color: #DCCA87;
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#newsletter-container p {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#newsletter-form {
+    display: inline-block;
+}
+
+#newsletter-form input[type="email"] {
+    align-items: center;
+    width: 600px;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-right: 20px;
+    background-color:  black;
+    color: #DCCA87;
+    border: 1px #DCCA87 solid;
+}
+
+#newsletter-container button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #DCCA87;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    font-family: 'Cormorant Garamond';
+    font-weight: bold;
+}
+
+footer {
+    padding: 40px;
+}
+
+#ftr {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    gap: 150px;
+    margin-left: 70px;
+}
+
+#ftr h1 {
+    color: #d4c078;
+}
+
+#ftr p {
+    color: #FFF;
+}
+
+
+.f-card2 {
+    position: relative;
+    top: 10px;
+}
+
+.f-card2 img {
+    width: 200px;
+}
+
+/* Footer end */

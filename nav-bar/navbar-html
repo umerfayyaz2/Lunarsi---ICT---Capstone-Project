@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="home.css"> 
+    <link rel="icon" href="/images/logofav.ico" type="image/x-icon">
+    
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+    <!-- fonts -->
+
+</head>
+<body>
+
+    <!-- Nav Bar -->
+
+    <div>
+       
+    <nav class='navbar'>
+        <div class='navbar-logo'>
+            <a href="/home-page/home-page.html"><img src="/images/lunarsi.png" alt='logo'/></a>
+        </div>
+    
+        <ul class='navbar-list'>
+        <li><a class="nav-list"  href='/home-page/home-page.html'>Home</a></li>
+        <li><a class="nav-list"  href='/Menu/menu.html'>Menu</a></li>
+        <li style="border: none;"><a class="nav-list"  href='/Contact Us/contact.html'>Contact Us</a></li>
+        </ul>
+        <a class="login" href='/Login-Register/login-register.html' class="login">Log In / Register</a>
+        </nav>
+        
+    </div>
+    
+    <!-- Nav Bar -->

@@ -1,0 +1,90 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: -1;
+    scroll-behavior: smooth;
+
+    /* Font Families */
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: black;
+    height: fit-content;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Cormorant Garamond';
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    display: flex;
+    position:sticky;
+    top: 1px;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 2rem;
+    border-bottom: 0.01px solid #DCCA87;
+    overflow-x: -1;
+}
+
+/* Logo Styles */
+.navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-logo img {
+    width: 120px;
+}
+
+/* Navigation List Styles */
+.navbar-list li {
+    display: flex;
+    border-right: solid 1px #FFF;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 1rem;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: #FFF;
+    margin: 0 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-list:hover {
+    color: #DCCA87;
+    border-bottom: 1px solid #DCCA87;
+    transition: linear;
+    transition-duration: 0.10s;
+}
+
+/* Login Link Styles */
+.login {
+    color: #FFF;
+    text-decoration: none;
+    position: relative;
+    right: 20px;
+}
+
+.login:hover {
+    color: #DCCA87;
+    border-bottom: 1px solid #DCCA87;
+    transition: linear;
+    transition-duration: 0.10s;
+}
+
+/* Nav Bar Ends */
